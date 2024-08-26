@@ -3,18 +3,15 @@
     <img src="https://raw.githubusercontent.com/viruskizz/viruskizz-myutils/main/badge04-netpractice.png" alt="minishell badge" />
 </div>
 
-## _42Bangkok's project_
+## _Abstract_
 
 The **Netpractice** 42 project is a general practical exercise to let you discover networking. You will have to configure small-scale networks. To do so, it will be necessary to understand how TCP/IP addressing works.
 
 You will have to complete 10 levels (i.e. 10 exercises) and turn them in your Git
 repository.
 
-## Guide :bookmark_tabs:
+## My learning resource :bookmark_tabs:
 
-Read my full guide in [Netpractice 42Bangkok guide]
-
-### My learning resource
 This resource is coverage all knowledge that you should know. It short and good explaination
 
 - [Classless Inter-Domain Routing]
@@ -22,18 +19,18 @@ This resource is coverage all knowledge that you should know. It short and good 
 - [CIDR]
 - [Broadcast Address]
 
-## Concept
+## Concepts
 
 ### Configuration
-1. Client ip do not overlap to other
-2. Switch need to connect client in same subnet
-3. Router can connect between subnet
-4. route table is configured from source ip to destination with CIDR (0.0.0.0/0)
-5. Private ip do not access internet
+1. Client IP address must not overlap to other
+2. Switch can only connect clients in same subnet
+3. Router can connect between subnets
+4. Route table is configured from source to destination IP address using CIDR notation (0.0.0.0/0)
+5. Private IP address can't access the internet
     - from `10.0.0.0` to `10.255.255.255`
     - from `172.16.0.0` to `172.31.255.255`
     - from `192.168.0.0` to `192.168.255.255`
-6. Do not set local ip
+6. Local IP address must no be used by physical interfaces
     - from `127.0.0.1` to `127.255.255.254`
 
 ### Step to solve problem
